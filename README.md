@@ -57,7 +57,7 @@ El código se publica módulo a módulo cuando sale el video en YouTube.
 | # | Carpeta | Qué aprenderás | Estado |
 |---|---------|----------------|--------|
 | 1 | `01_fundamentos_instalacion` | Instalación, PyAutoGUI, marcar zona de trabajo, localizar ventana, clics de prueba y captura de pantalla | ✅ Publicado |
-| 2 | `02_deteccion_ventanas` | Propiedades de la ventana, coordenadas relativas/absolutas, recortes con mss (3 regiones) | 🔜 Próximamente |
+| 2 | `02_deteccion_ventanas` | Propiedades de la ventana, coordenadas relativas/absolutas, recortes con mss (3 regiones) | ✅ Publicado |
 | 3 | `03_reconocimiento_imagenes` | Plantillas con OpenCV, buscar un icono en la zona y hacer clic | 🔜 Próximamente |
 | 4 | `04_ocr_lectura_texto` | Tesseract OCR, leer coordenadas del mapa, calibración doble (juego + zona OCR) | 🔜 Próximamente |
 | 5 | `05_navegacion_basica` | OCR antes/después, mover el mapa una vez desde el centro de la zona | 🔜 Próximamente |

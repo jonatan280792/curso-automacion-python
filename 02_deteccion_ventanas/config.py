@@ -1,0 +1,62 @@
+# Zona de trabajo (se marca al arrancar, igual que módulo 1)
+ZONA_IZQUIERDA = 0
+ZONA_SUPERIOR = 0
+ZONA_ANCHO = 0
+ZONA_ALTO = 0
+
+PAUSA_ENTRE_ACCIONES = 0.55
+SEGURIDAD_ESQUINA = True
+
+TITULOS_VENTANA = (
+    "DOFUS Touch",
+    "Dofus Touch",
+    "Phone Link",
+    "Vínculo con el teléfono",
+    "Link to Windows",
+    "Enlace con el teléfono",
+)
+
+TITULOS_VENTANA_PRIORIDAD = (
+    "DOFUS Touch",
+    "Dofus Touch",
+)
+
+VENTANA_MIN_ANCHO = 400
+VENTANA_MIN_ALTO = 320
+VENTANA_MIN_ANCHO_RELAX = 280
+VENTANA_MIN_ALTO_RELAX = 240
+UMBRAL_FUERA_PANTALLA = -28000
+VENTANA_DIMINUTA_ANCHO = 120
+VENTANA_DIMINUTA_ALTO = 80
+
+CARPETA_SALIDA = "output"
+RUTA_ZONA_JSON = "output/zona_captura_modulo2.json"
+
+# Segundos tras ejecutar main.py antes del rectángulo gris (minimizar IDE, dejar Dofus visible)
+PAUSA_ANTES_CALIBRAR_ZONA = 2.0
+
+SEGUNDOS_CUENTA_ATRAS = 5
+LOG_DEPURACION = False
+ABRIR_CARPETA_AL_FINAL = True
+
+# Ritmo entre pasos (sube valores si grabas con calma)
+PAUSA_TRAS_BUSCAR_VENTANA = 0.7
+PAUSA_TRAS_ACTIVAR_VENTANA = 1.0
+PAUSA_PANEL_LAYOUT = 0.25
+PAUSA_ENTRE_BLOQUES = 2.0
+PAUSA_ENTRE_REGIONES = 1.6
+PAUSA_ENTRE_CONVERSIONES = 1.1
+PAUSA_ANTES_CLICS_DEMO = 5.0
+PAUSA_ENTRE_CLICS = 2.8
+
+EJEMPLOS_DENTRO_DE_VENTANA = True
+
+PAUSA_TRAS_RESTAURAR = 0.35
+PAUSA_TRAS_ACTIVAR = 0.55
+PAUSA_ANTES_CLIC = 0.45
+
+PANEL_ACTIVO = False
+PANEL_POS_X = 0.72
+PANEL_POS_Y = 0.08
+PANEL_ANCHO_FRAC = 0.26
+PANEL_ALTO_FRAC = 0.58
