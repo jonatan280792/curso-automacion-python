@@ -1,0 +1,7 @@
+# Python 3.12+: usar numpy>=1.26 (ruedas precompiladas).
+pyautogui==0.9.54
+pygetwindow==0.0.9
+pillow>=10.0.1
+numpy>=1.26.0,<3
+opencv-python>=4.8.1,<5
+mss>=9.0.1

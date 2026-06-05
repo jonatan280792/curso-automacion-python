@@ -1,0 +1,55 @@
+# --- Guiones y material interno de grabación (no subir) ---
+guion.md
+**/guion.md
+GUION*.md
+**/GUION*.md
+ESTRATEGIA_GRABACION.md
+ANALISIS_PROYECTO.md
+RESUMEN_CURSO.md
+README_CURSO.md
+notas_*.md
+_watch_*
+
+# Carpetas solo para producción de videos
+watch_face_assets/
+_watch_face_assets/
+
+# Scripts auxiliares de investigación / grabación
+codigo_*.js
+codigo_*.txt
+extraer_*.js
+obtener_*.js
+obtener_*.sh
+script_*.js
+trafico_*.log
+wsa_*.bat
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# --- Salida generada por los scripts ---
+**/output/*
+!**/output/.gitkeep
+**/temp/*
+!**/temp/.gitkeep
+
+# --- IDE / sistema ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Secretos ---
+.env
+*.env.local
