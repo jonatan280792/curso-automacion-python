@@ -1,0 +1,82 @@
+# Zona del juego (modal al arrancar, igual que módulo 4)
+ZONA_IZQUIERDA = 0
+ZONA_SUPERIOR = 0
+ZONA_ANCHO = 0
+ZONA_ALTO = 0
+
+# Zona OCR coordenadas del mapa
+OCR_IZQUIERDA = 0
+OCR_SUPERIOR = 0
+OCR_ANCHO = 0
+OCR_ALTO = 0
+
+PAUSA_ENTRE_ACCIONES = 0.55
+SEGURIDAD_ESQUINA = True
+
+TITULOS_VENTANA = (
+    "DOFUS Touch",
+    "Dofus Touch",
+    "Phone Link",
+    "Vínculo con el teléfono",
+    "Link to Windows",
+    "Enlace con el teléfono",
+)
+
+TITULOS_VENTANA_PRIORIDAD = (
+    "DOFUS Touch",
+    "Dofus Touch",
+)
+
+VENTANA_MIN_ANCHO = 400
+VENTANA_MIN_ALTO = 320
+VENTANA_MIN_ANCHO_RELAX = 280
+VENTANA_MIN_ALTO_RELAX = 240
+UMBRAL_FUERA_PANTALLA = -28000
+VENTANA_DIMINUTA_ANCHO = 120
+VENTANA_DIMINUTA_ALTO = 80
+
+CARPETA_SALIDA = "output"
+RUTA_ZONA_JSON = "output/zona_captura_modulo5.json"
+RUTA_ZONA_OCR_JSON = "output/zona_coordenadas_modulo5.json"
+
+RUTA_TESSERACT = None
+TESSERACT_CONFIG = r"--psm 6 -c tessedit_char_whitelist=-0123456789,"
+
+# Ruta inicial en el modal: vacío — el usuario arma la ruta con las flechas
+RUTA_EJEMPLO = ""
+
+# Arrastre de cada paso (centro de la zona del juego)
+DRAG_PIXELES = 280
+DRAG_DURACION = 0.75
+PAUSA_ANTES_ARRASTRE = 1.0
+PAUSA_TRAS_POSICIONAR_RATON = 0.3
+PAUSA_TRAS_MOUSE_DOWN = 0.2
+PAUSA_TRAS_CLICK = 0.5
+
+# Espera tras cada arrastre (Phone Link tarda en estabilizar el mapa)
+PAUSA_MINIMA_TRAS_ARRASTRE = 1.5
+OCR_INTERVALO_ESPERA = 0.5
+OCR_ESPERA_MAXIMA = 45.0
+OCR_LECTURAS_ESTABLES = 2
+OCR_PAUSA_TRAS_CAMBIO = 1.2
+OCR_REINTENTOS_ESPERA = 2
+OCR_PAUSA_ENTRE_REINTENTOS = 2.0
+
+SEGUNDOS_CUENTA_ATRAS = 5
+LOG_DEPURACION = False
+GUARDAR_RECORTE_OCR = False
+ABRIR_CARPETA_AL_FINAL = False
+
+PAUSA_TRAS_BUSCAR_VENTANA = 0.7
+PAUSA_TRAS_ACTIVAR_VENTANA = 1.0
+PAUSA_PANEL_LAYOUT = 0.25
+PAUSA_ENTRE_BLOQUES = 1.5
+
+PAUSA_TRAS_RESTAURAR = 0.35
+PAUSA_TRAS_ACTIVAR = 0.55
+
+PANEL_ACTIVO = False
+PANEL_POS_X = 0.72
+PANEL_POS_Y = 0.08
+PANEL_ANCHO_FRAC = 0.26
+PANEL_ALTO_FRAC = 0.58
