@@ -230,6 +230,32 @@ def aplicar_zona_en_config(
     config_mod.ZONA_ALTO = h
 
 
+def realinear_rect_a_ventana(
+    zona_referencia: tuple[int, int, int, int],
+    rect: tuple[int, int, int, int],
+    ventana_left: int,
+    ventana_top: int,
+    ventana_ancho: int,
+    ventana_alto: int,
+) -> tuple[int, int, int, int]:
+    """
+    Mueve/escala un rectángulo si la ventana del juego se desplazó o cambió de tamaño.
+    zona_referencia = zona del juego al calibrar; rect = OCR u otra subzona dentro de ella.
+    """
+    zl, zt, zw, zh = zona_referencia
+    rl, rt, rw, rh = rect
+    if zw < 1 or zh < 1:
+        return rect
+    sx = ventana_ancho / zw
+    sy = ventana_alto / zh
+    return (
+        int(ventana_left + (rl - zl) * sx),
+        int(ventana_top + (rt - zt) * sy),
+        max(4, int(rw * sx)),
+        max(4, int(rh * sy)),
+    )
+
+
 def calibrar_zona_al_inicio(ruta_zona_json: str | Path) -> Optional[tuple[int, int, int, int]]:
     """
     Paso obligatorio: pantalla semitransparente, arrastras el rectángulo del juego.

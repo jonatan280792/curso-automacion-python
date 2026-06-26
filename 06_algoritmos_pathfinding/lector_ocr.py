@@ -7,8 +7,6 @@ from common.lector_coordenadas import (
     capturar_recorte_ocr as _capturar,
     extraer_coordenadas,
     leer_texto as _leer_texto,
-    preparar_para_ocr,
-    recorte_ocr_en_pantalla,
     tesseract_instalado as _tesseract_instalado,
 )
 
@@ -29,7 +27,5 @@ __all__ = [
     "capturar_recorte_ocr",
     "extraer_coordenadas",
     "leer_texto",
-    "preparar_para_ocr",
-    "recorte_ocr_en_pantalla",
     "tesseract_instalado",
 ]

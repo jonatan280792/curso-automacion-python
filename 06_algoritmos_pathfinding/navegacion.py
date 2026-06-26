@@ -1,19 +1,17 @@
-#!/usr/bin/env python3
-"""Arrastre del mapa, click y espera por OCR."""
+"""Navegación en el mapa — re-export desde common.navegacion_mapa."""
 
 from __future__ import annotations
 
-import time
 from collections.abc import Callable
 from typing import TYPE_CHECKING
-
-import pydirectinput as mouse
 
 import config
 from common.navegacion_mapa import (
     arrastrar_mapa as _arrastrar,
     ejecutar_paso_arrastre as _ejecutar_paso,
     esperar_cambio_coordenadas as _esperar,
+    origenes_arrastre_abanico as _origenes,
+    validar_vecino_paso,
 )
 
 if TYPE_CHECKING:
@@ -26,31 +24,28 @@ def centro_zona_juego() -> tuple[int, int]:
     return _centro(config)
 
 
-def arrastrar_paso(
+def origenes_arrastre_abanico(direccion: str) -> list[tuple[int, int, str]]:
+    return _origenes(config, direccion)
+
+
+def arrastrar_mapa(
     direccion: str,
     *,
     gestor: GestorVentana | None = None,
     log: Callable[[str], None] | None = None,
+    origen: tuple[int, int] | None = None,
+    etiqueta_origen: str = "centro",
+    pausa_previa: bool = True,
 ) -> None:
-    _arrastrar(config, direccion, gestor=gestor, log=log)
-
-
-def click_centro_juego(
-    *,
-    gestor: GestorVentana | None = None,
-    log: Callable[[str], None] | None = None,
-) -> None:
-    cx, cy = centro_zona_juego()
-
-    if gestor is not None:
-        gestor.activar_ventana(silencioso=True)
-
-    if log:
-        log("  Click en el centro del mapa")
-
-    mouse.PAUSE = 0
-    mouse.click(cx, cy)
-    time.sleep(config.PAUSA_TRAS_CLICK)
+    _arrastrar(
+        config,
+        direccion,
+        gestor=gestor,
+        log=log,
+        origen=origen,
+        etiqueta_origen=etiqueta_origen,
+        pausa_previa=pausa_previa,
+    )
 
 
 def esperar_cambio_coordenadas(
@@ -59,6 +54,8 @@ def esperar_cambio_coordenadas(
     *,
     log: Callable[[str], None] | None = None,
     validar: Callable[[tuple[int, int], tuple[int, int]], bool] | None = None,
+    max_espera: float | None = None,
+    lecturas_iguales_abort: int = 0,
 ) -> tuple[int, int] | None:
     return _esperar(
         posicion_anterior,
@@ -66,6 +63,8 @@ def esperar_cambio_coordenadas(
         config,
         log=log,
         validar=validar,
+        max_espera=max_espera,
+        lecturas_iguales_abort=lecturas_iguales_abort,
     )
 
 
@@ -78,23 +77,21 @@ def ejecutar_paso_arrastre(
     log: Callable[[str], None] | None = None,
     validar: Callable[[tuple[int, int], tuple[int, int]], bool] | None = None,
 ) -> tuple[int, int] | None:
-    try:
-        return _ejecutar_paso(
-            config,
-            direccion,
-            posicion_actual,
-            leer_coords,
-            gestor=gestor,
-            log=log,
-            validar=validar,
-        )
-    except KeyError as e:
-        raise KeyError(e) from e
+    return _ejecutar_paso(
+        config,
+        direccion,
+        posicion_actual,
+        leer_coords,
+        gestor=gestor,
+        log=log,
+        validar=validar,
+    )
 
 
 __all__ = [
-    "arrastrar_paso",
-    "click_centro_juego",
+    "arrastrar_mapa",
     "ejecutar_paso_arrastre",
     "esperar_cambio_coordenadas",
+    "origenes_arrastre_abanico",
+    "validar_vecino_paso",
 ]

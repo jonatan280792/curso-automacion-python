@@ -15,6 +15,7 @@ Uso típico (cualquier módulo):
 from __future__ import annotations
 
 import queue
+import sys
 import threading
 import tkinter as tk
 from tkinter import font as tkfont
@@ -133,6 +134,32 @@ class GameLogOverlay:
         except Exception:
             return
 
+        self._apply_geometry(w, h, x, y)
+
+    def reposition_anchor_monitor_right(
+        self,
+        mon_left: int,
+        mon_top: int,
+        mon_width: int,
+        mon_height: int,
+        *,
+        margin_right_frac: float = 0.0,
+    ) -> None:
+        """Esquina superior derecha del monitor (tamaño según fracciones del monitor)."""
+        if self.root is None or mon_width < 1 or mon_height < 1:
+            return
+        try:
+            w = max(160, int(mon_width * self._rel_w))
+            h = max(100, int(mon_height * self._rel_h))
+            y = mon_top + int(mon_height * self._rel_y)
+            margen = max(0, int(mon_width * margin_right_frac))
+            x = mon_left + mon_width - w - margen
+        except Exception:
+            return
+
+        self._apply_geometry(w, h, x, y)
+
+    def _apply_geometry(self, w: int, h: int, x: int, y: int) -> None:
         def _apply() -> None:
             try:
                 self.root.geometry(f"{w}x{h}+{x}+{y}")
@@ -289,3 +316,44 @@ class GameLogOverlay:
             root.after(0, _do)
         except tk.TclError:
             pass
+
+
+def monitor_rect_en_punto(screen_x: int, screen_y: int) -> tuple[int, int, int, int] | None:
+    """Monitor que contiene el punto: (left, top, width, height). Windows multi-monitor."""
+    if sys.platform != "win32":
+        return None
+    try:
+        import ctypes
+        from ctypes import wintypes
+
+        class POINT(ctypes.Structure):
+            _fields_ = [("x", ctypes.c_long), ("y", ctypes.c_long)]
+
+        class RECT(ctypes.Structure):
+            _fields_ = [
+                ("left", ctypes.c_long),
+                ("top", ctypes.c_long),
+                ("right", ctypes.c_long),
+                ("bottom", ctypes.c_long),
+            ]
+
+        class MONITORINFO(ctypes.Structure):
+            _fields_ = [
+                ("cbSize", ctypes.c_ulong),
+                ("rcMonitor", RECT),
+                ("rcWork", RECT),
+                ("dwFlags", ctypes.c_ulong),
+            ]
+
+        pt = POINT(int(screen_x), int(screen_y))
+        hmon = ctypes.windll.user32.MonitorFromPoint(pt, 2)
+        if not hmon:
+            return None
+        info = MONITORINFO()
+        info.cbSize = ctypes.sizeof(MONITORINFO)
+        if not ctypes.windll.user32.GetMonitorInfoW(hmon, ctypes.byref(info)):
+            return None
+        r = info.rcMonitor
+        return int(r.left), int(r.top), int(r.right - r.left), int(r.bottom - r.top)
+    except Exception:
+        return None

@@ -1,0 +1,2869 @@
+[
+  {
+    "mapId": 161794,
+    "position": [
+      -60,
+      2
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 161795,
+    "position": [
+      -60,
+      3
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161796,
+    "position": [
+      -60,
+      4
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161797,
+    "position": [
+      -60,
+      5
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 161281,
+    "position": [
+      -59,
+      1
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 161282,
+    "position": [
+      -59,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 161283,
+    "position": [
+      -59,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 161284,
+    "position": [
+      -59,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 161285,
+    "position": [
+      -59,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 161286,
+    "position": [
+      -59,
+      6
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161287,
+    "position": [
+      -59,
+      7
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161288,
+    "position": [
+      -59,
+      8
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161289,
+    "position": [
+      -59,
+      9
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161210,
+    "position": [
+      -59,
+      10
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161211,
+    "position": [
+      -59,
+      11
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161212,
+    "position": [
+      -59,
+      12
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161213,
+    "position": [
+      -59,
+      13
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161214,
+    "position": [
+      -59,
+      14
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161215,
+    "position": [
+      -59,
+      15
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161216,
+    "position": [
+      -59,
+      16
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161217,
+    "position": [
+      -59,
+      17
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161218,
+    "position": [
+      -59,
+      18
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161219,
+    "position": [
+      -59,
+      19
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161220,
+    "position": [
+      -59,
+      20
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161221,
+    "position": [
+      -59,
+      21
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161222,
+    "position": [
+      -59,
+      22
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161223,
+    "position": [
+      -59,
+      23
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 161224,
+    "position": [
+      -59,
+      24
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 160769,
+    "position": [
+      -58,
+      1
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 160770,
+    "position": [
+      -58,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160771,
+    "position": [
+      -58,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160772,
+    "position": [
+      -58,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160773,
+    "position": [
+      -58,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160774,
+    "position": [
+      -58,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160775,
+    "position": [
+      -58,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160776,
+    "position": [
+      -58,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160777,
+    "position": [
+      -58,
+      9
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160778,
+    "position": [
+      -58,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160779,
+    "position": [
+      -58,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160780,
+    "position": [
+      -58,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160781,
+    "position": [
+      -58,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160782,
+    "position": [
+      -58,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160783,
+    "position": [
+      -58,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160784,
+    "position": [
+      -58,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160785,
+    "position": [
+      -58,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160786,
+    "position": [
+      -58,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160787,
+    "position": [
+      -58,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160788,
+    "position": [
+      -58,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160789,
+    "position": [
+      -58,
+      21
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160790,
+    "position": [
+      -58,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160791,
+    "position": [
+      -58,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160792,
+    "position": [
+      -58,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160793,
+    "position": [
+      -58,
+      25
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 160794,
+    "position": [
+      -58,
+      26
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 160257,
+    "position": [
+      -57,
+      1
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 160258,
+    "position": [
+      -57,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160259,
+    "position": [
+      -57,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160260,
+    "position": [
+      -57,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160261,
+    "position": [
+      -57,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160262,
+    "position": [
+      -57,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160263,
+    "position": [
+      -57,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160264,
+    "position": [
+      -57,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160265,
+    "position": [
+      -57,
+      9
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160266,
+    "position": [
+      -57,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160267,
+    "position": [
+      -57,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160268,
+    "position": [
+      -57,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160269,
+    "position": [
+      -57,
+      13
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160270,
+    "position": [
+      -57,
+      14
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160271,
+    "position": [
+      -57,
+      15
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160272,
+    "position": [
+      -57,
+      16
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160273,
+    "position": [
+      -57,
+      17
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160274,
+    "position": [
+      -57,
+      18
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160275,
+    "position": [
+      -57,
+      19
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160276,
+    "position": [
+      -57,
+      20
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 160277,
+    "position": [
+      -57,
+      21
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160278,
+    "position": [
+      -57,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160279,
+    "position": [
+      -57,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160280,
+    "position": [
+      -57,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160281,
+    "position": [
+      -57,
+      25
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 160282,
+    "position": [
+      -57,
+      26
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159744,
+    "position": [
+      -56,
+      0
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 159745,
+    "position": [
+      -56,
+      1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159746,
+    "position": [
+      -56,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159747,
+    "position": [
+      -56,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159748,
+    "position": [
+      -56,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159749,
+    "position": [
+      -56,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159750,
+    "position": [
+      -56,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159751,
+    "position": [
+      -56,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159752,
+    "position": [
+      -56,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159753,
+    "position": [
+      -56,
+      9
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 159754,
+    "position": [
+      -56,
+      10
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 159755,
+    "position": [
+      -56,
+      11
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 159756,
+    "position": [
+      -56,
+      12
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159757,
+    "position": [
+      -56,
+      13
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 159758,
+    "position": [
+      -56,
+      14
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159759,
+    "position": [
+      -56,
+      15
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159760,
+    "position": [
+      -56,
+      16
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159761,
+    "position": [
+      -56,
+      17
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159762,
+    "position": [
+      -56,
+      18
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159763,
+    "position": [
+      -56,
+      19
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159764,
+    "position": [
+      -56,
+      20
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 159765,
+    "position": [
+      -56,
+      21
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 159766,
+    "position": [
+      -56,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159767,
+    "position": [
+      -56,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159768,
+    "position": [
+      -56,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159769,
+    "position": [
+      -56,
+      25
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159770,
+    "position": [
+      -56,
+      26
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159489,
+    "position": [
+      -55,
+      -1
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 159490,
+    "position": [
+      -55,
+      0
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159491,
+    "position": [
+      -55,
+      1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159492,
+    "position": [
+      -55,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159493,
+    "position": [
+      -55,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159494,
+    "position": [
+      -55,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159495,
+    "position": [
+      -55,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159496,
+    "position": [
+      -55,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159497,
+    "position": [
+      -55,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159498,
+    "position": [
+      -55,
+      8
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159499,
+    "position": [
+      -55,
+      9
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 159500,
+    "position": [
+      -55,
+      10
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159501,
+    "position": [
+      -55,
+      11
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 159502,
+    "position": [
+      -55,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159503,
+    "position": [
+      -55,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159504,
+    "position": [
+      -55,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159505,
+    "position": [
+      -55,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159506,
+    "position": [
+      -55,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159507,
+    "position": [
+      -55,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159508,
+    "position": [
+      -55,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159509,
+    "position": [
+      -55,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159510,
+    "position": [
+      -55,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159511,
+    "position": [
+      -55,
+      21
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159512,
+    "position": [
+      -55,
+      22
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 159513,
+    "position": [
+      -55,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159514,
+    "position": [
+      -55,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159515,
+    "position": [
+      -55,
+      25
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159516,
+    "position": [
+      -55,
+      26
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 158978,
+    "position": [
+      -54,
+      -2
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 158979,
+    "position": [
+      -54,
+      -1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158980,
+    "position": [
+      -54,
+      0
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158981,
+    "position": [
+      -54,
+      1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158982,
+    "position": [
+      -54,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158983,
+    "position": [
+      -54,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158984,
+    "position": [
+      -54,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158985,
+    "position": [
+      -54,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158986,
+    "position": [
+      -54,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158987,
+    "position": [
+      -54,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158988,
+    "position": [
+      -54,
+      8
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 158989,
+    "position": [
+      -54,
+      9
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 158990,
+    "position": [
+      -54,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158991,
+    "position": [
+      -54,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158992,
+    "position": [
+      -54,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158993,
+    "position": [
+      -54,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158994,
+    "position": [
+      -54,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158995,
+    "position": [
+      -54,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158996,
+    "position": [
+      -54,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158997,
+    "position": [
+      -54,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158998,
+    "position": [
+      -54,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158999,
+    "position": [
+      -54,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159000,
+    "position": [
+      -54,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159001,
+    "position": [
+      -54,
+      21
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 159002,
+    "position": [
+      -54,
+      22
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 159003,
+    "position": [
+      -54,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159004,
+    "position": [
+      -54,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 159005,
+    "position": [
+      -54,
+      25
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 158446,
+    "position": [
+      -53,
+      -2
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 158447,
+    "position": [
+      -53,
+      -1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158448,
+    "position": [
+      -53,
+      0
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158449,
+    "position": [
+      -53,
+      1
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158450,
+    "position": [
+      -53,
+      2
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158451,
+    "position": [
+      -53,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158452,
+    "position": [
+      -53,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158453,
+    "position": [
+      -53,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158454,
+    "position": [
+      -53,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158455,
+    "position": [
+      -53,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158456,
+    "position": [
+      -53,
+      8
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 158457,
+    "position": [
+      -53,
+      9
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 158458,
+    "position": [
+      -53,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158459,
+    "position": [
+      -53,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158460,
+    "position": [
+      -53,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158461,
+    "position": [
+      -53,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158462,
+    "position": [
+      -53,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158463,
+    "position": [
+      -53,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158464,
+    "position": [
+      -53,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158465,
+    "position": [
+      -53,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158466,
+    "position": [
+      -53,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158467,
+    "position": [
+      -53,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158468,
+    "position": [
+      -53,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158469,
+    "position": [
+      -53,
+      21
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 158470,
+    "position": [
+      -53,
+      22
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 158471,
+    "position": [
+      -53,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158472,
+    "position": [
+      -53,
+      24
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 158472,
+    "position": [
+      -53,
+      25
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 157954,
+    "position": [
+      -52,
+      -2
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 157955,
+    "position": [
+      -52,
+      -1
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157956,
+    "position": [
+      -52,
+      0
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157957,
+    "position": [
+      -52,
+      1
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157958,
+    "position": [
+      -52,
+      2
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157959,
+    "position": [
+      -52,
+      3
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157960,
+    "position": [
+      -52,
+      4
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157961,
+    "position": [
+      -52,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157962,
+    "position": [
+      -52,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157963,
+    "position": [
+      -52,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157964,
+    "position": [
+      -52,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157965,
+    "position": [
+      -52,
+      9
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 157966,
+    "position": [
+      -52,
+      10
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 157967,
+    "position": [
+      -52,
+      11
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157968,
+    "position": [
+      -52,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157969,
+    "position": [
+      -52,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157970,
+    "position": [
+      -52,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157971,
+    "position": [
+      -52,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157972,
+    "position": [
+      -52,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157973,
+    "position": [
+      -52,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157974,
+    "position": [
+      -52,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157975,
+    "position": [
+      -52,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157976,
+    "position": [
+      -52,
+      20
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 157977,
+    "position": [
+      -52,
+      21
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 157978,
+    "position": [
+      -52,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157979,
+    "position": [
+      -52,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157980,
+    "position": [
+      -52,
+      24
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 157187,
+    "position": [
+      -51,
+      3
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 157188,
+    "position": [
+      -51,
+      4
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157189,
+    "position": [
+      -51,
+      5
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157190,
+    "position": [
+      -51,
+      6
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157191,
+    "position": [
+      -51,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157192,
+    "position": [
+      -51,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157193,
+    "position": [
+      -51,
+      9
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157194,
+    "position": [
+      -51,
+      10
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 157195,
+    "position": [
+      -51,
+      11
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 157196,
+    "position": [
+      -51,
+      12
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 157197,
+    "position": [
+      -51,
+      13
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157198,
+    "position": [
+      -51,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157199,
+    "position": [
+      -51,
+      15
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157200,
+    "position": [
+      -51,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157201,
+    "position": [
+      -51,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157202,
+    "position": [
+      -51,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157203,
+    "position": [
+      -51,
+      19
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157204,
+    "position": [
+      -51,
+      20
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 157205,
+    "position": [
+      -51,
+      21
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157206,
+    "position": [
+      -51,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157207,
+    "position": [
+      -51,
+      23
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 157208,
+    "position": [
+      -51,
+      24
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 156667,
+    "position": [
+      -50,
+      5
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 156668,
+    "position": [
+      -50,
+      6
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156669,
+    "position": [
+      -50,
+      7
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156670,
+    "position": [
+      -50,
+      8
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156671,
+    "position": [
+      -50,
+      9
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156672,
+    "position": [
+      -50,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156673,
+    "position": [
+      -50,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156674,
+    "position": [
+      -50,
+      12
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156675,
+    "position": [
+      -50,
+      13
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 156676,
+    "position": [
+      -50,
+      14
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 156677,
+    "position": [
+      -50,
+      15
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156678,
+    "position": [
+      -50,
+      16
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156679,
+    "position": [
+      -50,
+      17
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156680,
+    "position": [
+      -50,
+      18
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 156681,
+    "position": [
+      -50,
+      19
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 156682,
+    "position": [
+      -50,
+      20
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156683,
+    "position": [
+      -50,
+      21
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156684,
+    "position": [
+      -50,
+      22
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156685,
+    "position": [
+      -50,
+      23
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 156167,
+    "position": [
+      -49,
+      7
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 156168,
+    "position": [
+      -49,
+      8
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156169,
+    "position": [
+      -49,
+      9
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156170,
+    "position": [
+      -49,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156171,
+    "position": [
+      -49,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156172,
+    "position": [
+      -49,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156173,
+    "position": [
+      -49,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156174,
+    "position": [
+      -49,
+      14
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156175,
+    "position": [
+      -49,
+      15
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156176,
+    "position": [
+      -49,
+      16
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156177,
+    "position": [
+      -49,
+      17
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156178,
+    "position": [
+      -49,
+      18
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 156179,
+    "position": [
+      -49,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156180,
+    "position": [
+      -49,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 156181,
+    "position": [
+      -49,
+      21
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 156182,
+    "position": [
+      -49,
+      22
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 155657,
+    "position": [
+      -48,
+      9
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 155658,
+    "position": [
+      -48,
+      10
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155659,
+    "position": [
+      -48,
+      11
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155660,
+    "position": [
+      -48,
+      12
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155661,
+    "position": [
+      -48,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155662,
+    "position": [
+      -48,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155663,
+    "position": [
+      -48,
+      15
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155664,
+    "position": [
+      -48,
+      16
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155665,
+    "position": [
+      -48,
+      17
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155666,
+    "position": [
+      -48,
+      18
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155667,
+    "position": [
+      -48,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155668,
+    "position": [
+      -48,
+      20
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 155669,
+    "position": [
+      -48,
+      21
+    ],
+    "directionBlock": {
+      "up": true,
+      "left": true
+    }
+  },
+  {
+    "mapId": 155670,
+    "position": [
+      -48,
+      22
+    ],
+    "directionBlock": {
+      "left": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 155146,
+    "position": [
+      -47,
+      10
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 155147,
+    "position": [
+      -47,
+      11
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155148,
+    "position": [
+      -47,
+      12
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 155149,
+    "position": [
+      -47,
+      13
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155150,
+    "position": [
+      -47,
+      14
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155151,
+    "position": [
+      -47,
+      15
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 155152,
+    "position": [
+      -47,
+      16
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 155153,
+    "position": [
+      -47,
+      17
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 155154,
+    "position": [
+      -47,
+      18
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 155155,
+    "position": [
+      -47,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155156,
+    "position": [
+      -47,
+      20
+    ],
+    "directionBlock": {
+      "left": true
+    }
+  },
+  {
+    "mapId": 155157,
+    "position": [
+      -47,
+      21
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 155158,
+    "position": [
+      -47,
+      22
+    ],
+    "directionBlock": {
+      "down": true
+    }
+  },
+  {
+    "mapId": 154637,
+    "position": [
+      -46,
+      13
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 154638,
+    "position": [
+      -46,
+      14
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 154639,
+    "position": [
+      -46,
+      15
+    ],
+    "directionBlock": {
+      "up": true
+    }
+  },
+  {
+    "mapId": 154640,
+    "position": [
+      -46,
+      16
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 154641,
+    "position": [
+      -46,
+      17
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 154642,
+    "position": [
+      -46,
+      18
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 154643,
+    "position": [
+      -46,
+      19
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 154644,
+    "position": [
+      -46,
+      20
+    ],
+    "directionBlock": {}
+  },
+  {
+    "mapId": 154645,
+    "position": [
+      -46,
+      21
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 154646,
+    "position": [
+      -46,
+      22
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  },
+  {
+    "mapId": 154525,
+    "position": [
+      -45,
+      15
+    ],
+    "directionBlock": {
+      "up": true,
+      "right": true
+    }
+  },
+  {
+    "mapId": 154526,
+    "position": [
+      -45,
+      16
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 154527,
+    "position": [
+      -45,
+      17
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 154526,
+    "position": [
+      -45,
+      18
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 154526,
+    "position": [
+      -45,
+      19
+    ],
+    "directionBlock": {
+      "right": true
+    }
+  },
+  {
+    "mapId": 154526,
+    "position": [
+      -45,
+      20
+    ],
+    "directionBlock": {
+      "right": true,
+      "down": true
+    }
+  }
+]

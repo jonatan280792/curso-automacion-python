@@ -37,7 +37,7 @@ from lector_ocr import (
     tesseract_instalado,
 )
 from menu_calibracion_navegacion import mostrar_menu_calibracion_navegacion
-from navegacion import arrastrar_paso, click_centro_juego, esperar_cambio_coordenadas
+from navegacion import arrastrar_paso, click_centro_juego, ejecutar_paso_arrastre
 from window_manager import GestorVentana
 
 _OVERLAY = None
@@ -149,15 +149,18 @@ def ejecutar_ruta(
 
         decir(f"  Desde: {posicion[0]} , {posicion[1]}")
         try:
-            arrastrar_paso(paso, gestor=gestor, log=decir)
+            nueva = ejecutar_paso_arrastre(
+                paso,
+                posicion,
+                leer_coordenadas_actuales,
+                gestor=gestor,
+                log=decir,
+            )
         except KeyError as e:
             decir(f"  ✗ Dirección no válida: {e}")
             return False
-
-        decir("  Esperando cambio de coordenadas…")
-        nueva = esperar_cambio_coordenadas(posicion, leer_coordenadas_actuales, log=decir)
         if nueva is None:
-            decir("  Revisa zona OCR o sube OCR_ESPERA_MAXIMA en config.py")
+            decir("  Revisa zona OCR o tiempos OCR_* en config.py")
             return False
         posicion = nueva
         decir("")
